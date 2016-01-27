@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Bank Form</title>
+  <link rel="stylesheet" type="text/css" href="css.css">
+</head>
+
+<body>
+<div class="contentContainer">
+  
+  <div class="formStyle">
+  <h1>LOAN APPLICATION</h1>
+  <h3>Applicant Information</h3>
+  <form action="" method="POST">
+    <fieldset>
+      <legend>Personal Information</legend>
+      <label for="firstName"> First Name:</label>
+      <input type="text" id="firstName">
+      <label for="middleInitial"> Middle Initial:</label>
+      <input type="text" id="middleInitial">
+      <label for="lastName"> Last Name:</label>
+      <input type="text" id="lastName"><br>
+      <label>Applicant Address:</label>
+      <textarea></textarea>
+    </fieldset>
+    <label for="occupation"> Occupation:</label>
+    <input type="text" id="occupation">  </form>
+    <label for="employer"> Employer:</label><br>
+    <input type="text" id="employer">
+    <label>Employer Address:</label>
+    <textarea></textarea><br>
+    <label for="loanType">Loan Type:</label>
+    <select id="loanType">
+            <option value="Commercial">Commercial</option>
+            <option value="realEstate">Real Estate</option>
+            <option value="personal">Personal</option>
+            <option value="mortgage">Mortgage</option>
+    </select>
+    <label for="loanAmount"> Requested Amount of Loan:</label>
+    <input type="text" id="loanAmount">
+    <label>Loan Length:</label>
+    <input type="radio" name="length" value="5years">5 years
+    <input type="radio" name="length" value="15years">15 years
+    <input type="radio" name="length" value="30years">30 years
+
+  </div>
+</div>  
+</body>
+</html>
